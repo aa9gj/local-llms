@@ -1,13 +1,14 @@
+## Install huggingface_hub, torch, and transformers packages
 from huggingface_hub import hf_hub_download
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 
 # Set Hugging Face API Key from environment variable 
 HUGGING_FACE_API_KEY = 'INPUT-YOUR-API-KEY'
 
-# Model ID for ModernBERT-base
+# Model ID for TineLlama from HuggingFace 
 huggingface_model = "TinyLlama/TinyLlama-1.1B-Chat-v1.0" 
 
-# List of required files fro the model 
+# List of required files from the model Files and version tab on HuggingFace
 required_files = [
     ".gitattributes",
     "config.json",
