@@ -8,7 +8,7 @@ from ragas import evaluate
 from ragas.metrics import (
     faithfulness,
     context_precision,
-    context_recall,
+    context_recall
 )
 
 # LangChain components for Hugging Face models
